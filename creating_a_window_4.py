@@ -1,9 +1,7 @@
 #!/usr/bin/env python3
 import sys
-import typing  # needed for command line args
 
-from PyQt6.QtCore import QSize, Qt
-from PyQt6.QtWidgets import QApplication, QMainWindow, QPushButton, QWidget
+from PyQt6.QtWidgets import QApplication, QMainWindow, QPushButton
 
 
 # Subclassing QMainWindows lets you call __init__ to customize the application's
