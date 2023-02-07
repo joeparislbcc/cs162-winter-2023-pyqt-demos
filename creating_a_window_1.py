@@ -10,7 +10,6 @@ app = QApplication(sys.argv)
 # Create an instance of QWidget which will serve as the main window for our
 # application.
 window = QWidget()
-window.setGeometry(200, 200, 640, 480)
 
 # Windows are hidden by default.
 window.show()
